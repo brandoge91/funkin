@@ -11,7 +11,7 @@ environment:
   HAXE_INSTALLDIR: /home/appveyor/haxe
   SRC_REPO: https://github.com/brandoge91/funkin-bcb
   GITHUB_ACCESS_TOKEN:
-    secure: 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
+    secure: /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
 install:
   - cd /home/appveyor/site
   - git checkout main
