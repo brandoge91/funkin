@@ -48,7 +48,6 @@ build_script:
   - haxelib run lime build html5
   - cd /home/appveyor/site
   - git rm -rf nightly/
-  - git remote add origin https://github.com/brandoge91/funkin.git
   - cp -r /home/appveyor/src/export/release/html5/bin /home/appveyor/site/bin
   - mv /home/appveyor/site/bin /home/appveyor/site/nightly
   - git config --global user.email "brandoge91@gmail.com"
